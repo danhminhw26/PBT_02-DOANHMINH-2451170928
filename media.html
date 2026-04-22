@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới Thiệu Sản Phẩm - Multimedia</title>
+  </head>
+  <body>
+    <div>
+      <!-- Header -->
+      <header>
+        <h1>
+          <svg
+            class="logo"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Logo inline: Hình tròn với gradient -->
+            <defs>
+              <linearGradient
+                id="logoGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop
+                  offset="0%"
+                  style="stop-color: #ffd700; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #ffa500; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <!-- Hình tròn ngoài -->
+            <circle cx="50" cy="50" r="48" fill="url(#logoGradient)" />
+            <!-- Hình vuông trong -->
+            <rect
+              x="30"
+              y="30"
+              width="40"
+              height="40"
+              fill="white"
+              opacity="0.3"
+              rx="5"
+            />
+            <!-- Biểu tượng media -->
+            <circle cx="35" cy="40" r="3" fill="white" />
+            <path
+              d="M 30 55 L 45 42 L 60 52 L 70 38"
+              stroke="white"
+              stroke-width="2"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Giới Thiệu Sản Phẩm
+        </h1>
+        <p>Khám phá những hình ảnh, video và âm thanh chất lượng cao</p>
+      </header>
+
+      <!-- Main Content -->
+      <div>
+        <!-- Sản phẩm - Ảnh Gallery -->
+        <section>
+          <h2>📷 Thư Viện Ảnh Sản Phẩm</h2>
+          <p>
+            Xem chi tiết các sản phẩm của chúng tôi qua bộ ảnh cao cấp
+          </p>
+
+          <div>
+            <!-- Ảnh sản phẩm 1 -->
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop"
+                alt="Sản phẩm điện tử hiện đại - Tai nghe không dây chất lượng âm thanh tuyệt vời"
+                loading="lazy"
+              />
+              <figcaption>Tai Nghe Không Dây Premium</figcaption>
+            </figure>
+
+            <!-- Ảnh sản phẩm 2 -->
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop"
+                alt="Sản phẩm đồng hồ thông minh - Đồng hồ Apple Watch với màn hình Retina AMOLED"
+                loading="lazy"
+              />
+              <figcaption>Đồng Hồ Thông Minh</figcaption>
+            </figure>
+
+            <!-- Ảnh sản phẩm 3 -->
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=300&fit=crop"
+                alt="Sản phẩm camera chuyên nghiệp - Máy ảnh DSLR với ống kính 24-70mm f/2.8"
+                loading="lazy"
+              />
+              <figcaption>Máy Ảnh Chuyên Nghiệp</figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <h3>✨ Đặc Điểm Nổi Bật</h3>
+            <ul>
+              <li>Thiết kế hiện đại, sang trọng</li>
+              <li>Công nghệ tiên tiến nhất</li>
+              <li>Chất lượng đã được chứng nhận quốc tế</li>
+              <li>Bảo hành 24 tháng</li>
+              <li>Hỗ trợ khách hàng 24/7</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Video YouTube -->
+        <section>
+          <h2>🎬 Video Hướng Dẫn Sử Dụng</h2>
+          <p>
+            Xem video hướng dẫn chi tiết cách sử dụng sản phẩm
+          </p>
+
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Video hướng dẫn sử dụng sản phẩm"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </section>
+
+        <!-- HTML5 Video -->
+        <section>
+          <h2>🎥 Phim Quảng Cáo Sản Phẩm</h2>
+          <p>
+            Quảng cáo chất lượng cao về sản phẩm (hỗ trợ định dạng MP4 và WebM)
+          </p>
+
+          <video
+            controls
+            poster="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=800&h=400&fit=crop"
+          >
+            <source
+              src="https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.webm"
+              type="video/webm"
+            />
+            Trình duyệt của bạn không hỗ trợ phát video HTML5. Vui lòng nâng cấp
+            trình duyệt của bạn.
+          </video>
+        </section>
+
+        <!-- Audio -->
+        <section>
+          <div>
+            <h3>🎵 Nhạc Nền Giới Thiệu Sản Phẩm</h3>
+            <p>
+              Thưởng thức nhạc nền đặc biệt được sáng tác riêng cho sản phẩm
+            </p>
+
+            <audio controls>
+              <source
+                src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                type="audio/mpeg"
+              />
+              Trình duyệt của bạn không hỗ trợ phát âm thanh HTML5.
+            </audio>
+          </div>
+        </section>
+
+        <!-- Info Section -->
+        <section>
+          <h2>ℹ️ Thông Tin Chi Tiết</h2>
+          <div
+            style="background: #fff3cd; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+            
+            <p>
+              <strong>Công nghệ đa phương tiện HTML5:</strong> Trang này sử dụng
+              các thẻ multimedia hiện đại bao gồm:
+            </p>
+            <ul>
+              <li>
+                &lt;figure&gt; và &lt;figcaption&gt; cho ảnh với chú thích
+              </li>
+              <li>&lt;iframe&gt; cho video YouTube nhúng</li>
+              <li>&lt;video&gt; với hỗ trợ nhiều định dạng (MP4, WebM)</li>
+              <li>&lt;audio&gt; cho phát nhạc</li>
+              <li>&lt;svg&gt; cho logo vector responsive</li>
+              <li>Lazy loading cho ảnh để tối ưu hiệu năng</li>
+              <li>Responsive design cho tất cả thiết bị</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2026 Công Ty Sản Phẩm Điện Tử. Tất cả quyền được bảo lưu.</p>
+        <p style="margin-top: 10px; font-size: 0.9em">
+          📧 Email: info@sanpham.com | 📱 Hotline: 1900-xxxx
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
